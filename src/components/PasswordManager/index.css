@@ -1,0 +1,161 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #9ba9eb;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2% 4%;
+}
+.app-logo {
+  width: 15%;
+}
+.add-new-password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 30vh;
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+
+  width: 100%;
+}
+.input-field {
+  width: 90%;
+}
+
+.password-manager-img {
+  height: 20vh;
+}
+
+.small-icons {
+  height: 20px;
+}
+
+.heading {
+  color: white;
+}
+
+.add-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+}
+
+.card {
+  width: 90%;
+
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 20px;
+
+  background-color: #5763a5;
+}
+
+.passwords-count {
+  margin-left: 10px;
+}
+.top-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontal-line {
+  height: 2px;
+  background-color: #9ba9eb;
+}
+
+.show-passwords-checkbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.your-passwords {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords-img {
+  width: 50%;
+}
+
+.password-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 95%;
+  height: 70%;
+
+  margin: 5px;
+  padding: 15px;
+
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.password-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+/* this is dummy below*/
+.passwords-list-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.password-stars {
+  width: 70px;
+  height: 10px;
+}
+
+.initial {
+  height: 50px;
+  width: 50px;
+  background-color: greenyellow;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: transparent;
+}
+
+.passwords-list {
+  display: flex;
+
+  list-style-type: none;
+}
