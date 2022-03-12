@@ -20,14 +20,14 @@ class PasswordManager extends React.Component {
     this.state = {
       showPasswords: false,
       passwordsList: [
-        {id: 1, website: 'youtube.com', username: 'sravan', password: 'secret'},
-        {id: 2, website: 'facebook.com', username: 'vivek', password: 'secret'},
-        {
-          id: 3,
-          website: 'instagram.com',
-          username: 'charan',
-          password: 'secret',
-        },
+        // {id: 1, website: 'youtube.com', username: 'sravan', password: 'secret'},
+        // {id: 2, website: 'facebook.com', username: 'vivek', password: 'secret'},
+        // {
+        //   id: 3,
+        //   website: 'instagram.com',
+        //   username: 'charan',
+        //   password: 'secret',
+        // },
       ],
       website: '',
       username: '',
@@ -48,6 +48,9 @@ class PasswordManager extends React.Component {
 
     this.setState(prevState => ({
       passwordsList: [...prevState.passwordsList, newPassword],
+      website: '',
+      username: '',
+      password: '',
     }))
   }
 
